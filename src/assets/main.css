@@ -18797,9 +18797,9 @@ video {
 
 /******************** NAVBAR ********************/
 
-@media and screen(max-width: 652px) {
+@media screen and (max-width: 652px) {
   .logo-container {
-    left: 20;
+    left: 10;
     top: 20;
   }
 }
@@ -18847,6 +18847,10 @@ video {
 .three-images-container {
   font-family: 'DIN 2014';
   background: url("../assets/images/peony_background.jpg") no-repeat center center/cover;
+}
+
+.first-image {
+  border-radius: 200px;
 }
 
 .three-images-ul button {

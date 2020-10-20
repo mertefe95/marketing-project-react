@@ -7,6 +7,7 @@ import MenuImage from "../assets/images/new-menu.jpg";
 import Coffee1 from "../assets/images/coffee1.png";
 import Coffee2 from "../assets/images/coffee2.png";
 import Coffee3 from "../assets/images/coffee3.png";
+import Coffee4 from "../assets/images/cff1.png";
 import Tiger from "../assets/images/tigerz.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TailwindCSS from "../assets/tailwind.css";
@@ -38,37 +39,35 @@ return (
             </ul>
     </div>
 
-    <div className="three-images-container p-24">
+    <div className="three-images-container  ">
 
-        <div className="three-images-upper-container flex justify-center items-center">
+        <div className="three-images-upper-container flex justify-evenly items-center w-full">
 
-            <div className="card">
+            <div className="card xxl:pl-12 sm:pl-32">
                 <Fade>
-                <img className="first-image p-15 pb-10 pr-20" src={Coffee1} />
+                <img className="first-image rounded-3xl"  src={Coffee4} />
                 </Fade>
             </div>
 
             <div className="card">      
                 <Fade duration={2000} delay={300}>
-                <img className="second-image p-16" src={Coffee2} />
+                <img className="second-image p-16 sm:mr-24 rounded-3xl" src={Coffee2} />
                 </Fade>
             </div>
         </div>
     
     
-        <div className="three-images-lower-container flex items-center justify-center pr-48 ">
+        <div className="three-images-lower-container flex items-center justify-center w-full">
 
-            <div className="card">
+            <div className="card pb-16 mr-8 sm:mr-0 sm:pr-8 xl:w-2/5">
                 <Fade duration={3000} delay={400}>           
-                <img className="third-image pr-8" src={Coffee3} />
+                <img className="third-image rounded-3xl" src={Coffee3} />
                 </Fade>   
             </div>
-                
-           
-                                
-                <ul className="three-images-ul">
-                <li className="pb-6 text-lg">Follow us on social</li>
-                <li><button className="border-2 tracking-wide px-5 py-3 bg-white cursor-pointer">Instagram</button></li>
+
+            <ul className="three-images-ul sm:mb-8">
+                <li className="pb-6 sm:pb-2 text-lg sm:text-base">Follow us on social</li>
+                <li className="sm:pb-12"><button className="border-2 tracking-wide px-5 py-3 bg-white cursor-pointer sm:text-sm">Instagram</button></li>
             </ul>          
         </div>
     </div>
