@@ -6,14 +6,14 @@ import Zoom from 'react-reveal/Zoom';
 function About() {
 return (
 
-<div className="about-container">
-    <div className="about-mission text-left pt-32 mx-48 px-56">
-        <ul className="about-mission-ul">
+<div className="about-container sm:flex sm:justify-start sm:items-start ">
+    <div className="about-mission text-left sm:text-center flex justify-center mt-20 items-center mx-64 xl:mx-48 md:mx-12 sm:mx-0 sm:pr-24 sm:mt-18 xl:inline-block  sm:inline-block">
+        <ul className="about-mission-ul pr-64 ">
             <Zoom>
-            <li className="px-2"><h3 className="mission-first-h uppercase text-4xl font-semibold tracking-widest">Our Mission</h3></li>
+            <li className="px-2"><h3 className="mission-first-h uppercase text-4xl md:text-2x1 font-semibold tracking-widest font-inter">Our Mission</h3></li>
             </Zoom>
-            <li className="px-2"><p className="mission-second-p pt-10 text-2xl">Real turkish coffee and a warm, friendly environment is a nostalgic and basic foundation for us Turkish People.</p></li>
-            <li className="px-2"><p className="mission-third-p pt-5 text-lg tracking-wider font-medium">As a coffee shop, HUG A MUG seeks to represent this nostalgia and foundation with high-quality ingredients, homemade items, and an influence from both our cultural backgrounds. Through elevated food, beverage, service, and design we seek to inspire and uplift the local community.<br/> We hope you enjoy our cafe!</p></li>
+            <li className="px-2"><p className="mission-second-p pt-10 sm:pt-6 text-2xl md:text-lg font-din">Real turkish coffee and a warm, friendly environment is a nostalgic and basic foundation for us Turkish People.</p></li>
+            <li className="px-2"><p className="mission-third-p pt-5 sm:pt-2 text-lg md:text-base tracking-wider font-medium font-din">As a coffee shop, HUG A MUG seeks to represent this nostalgia and foundation with high-quality ingredients, homemade items, and an influence from both our cultural backgrounds. Through elevated food, beverage, service, and design we seek to inspire and uplift the local community.<br/> We hope you enjoy our cafe!</p></li>
         </ul>
     </div>
 

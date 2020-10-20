@@ -10,7 +10,7 @@ import MyMenuImage from "../assets/images/my-menu.jpg";
 function Menu() {
 return(
 <div class="menu-page-container">
-    <img src={MyMenuImage} className="p-24"/>
+    <img src={MyMenuImage} className="h-full"/>
 </div>
 );
 }
