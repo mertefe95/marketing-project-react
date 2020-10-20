@@ -8,33 +8,35 @@ import TailwindCSS from "../assets/tailwind.css";
 
 function Footer() {
 return (
-<div className="footer flex justify-center items-center flex-col">
-        <Zoom> <img src={RealWhiteLogo} className="imgbear" /> </Zoom>
+<footer className="footer font-din bg-black text-white ">
+    <div className="flex justify-center items-center pt-4 h-40 md:h-28 sm:pt-0">
+        <Zoom> <img src={RealWhiteLogo} className="footer-image h-full" /> </Zoom>
+    </div>
 
-    <div className="footer-content-container flex justify-around items-center text-white w-full mr-30">
+    <div className="footer-content flex justify-around items-center md:px-8 sm:px-0 sm:pb-8 sm:px-0 pb-10">
         <Zoom>
-        <ul className="left-footer text-sm">
-            <li className="p-1">HUG A MUG COFFEE SHOP</li>
-            <li className="p-1">DUATEPE, SAVAS STREET. NO: 2</li>
-            <li className="p-1 mb-3">34000 SISLI/ISTANBUL/TURKEY</li>
-            <li className="p-1">&copy; 2020 HUG A MUG COFFEE SHOP.</li>
-            <li className="p-1">Artwork by Mert</li> 
+        <ul className="left-footer text-sm font-din">
+            <li className="p-1 sm:p-0">HUG A MUG COFFEE SHOP</li>
+            <li className="p-1 sm:p-0">DUATEPE, SAVAS STREET. NO: 2</li>
+            <li className="p-1 mb-3 sm:p-0 sm:mb-0">34000 SISLI/ISTANBUL/TURKEY</li>
+            <li className="p-1 sm:p-0">&copy; 2020 HUG A MUG COFFEE SHOP.</li>
+            <li className="p-1 sm:p-0">Artwork by Mert</li> 
         </ul>
         </Zoom>
 
         <Zoom>
-        <ul className="middle-footer text-center mr-16">
-            <li className="text-lg my-4 mx-0">Hours (updated hours due to COVID-19)</li>
-            <li className="text-sm p-1">Tuesday — Thursday</li>
-            <li className="text-sm p-1">11am — 8pm</li>
-            <li className="text-sm p-1">Friday — Sunday</li>
-            <li className="text-sm p-1">11am — 9pm</li>
-            <li className="text-sm p-1 my-4 mx-0">Closed on Monday</li>
+        <ul className="middle-footer text-center mr-16 sm:mr-0">
+            <li className="text-lg my-4 sm:my-0 sm:text-base">Hours (updated hours due to COVID-19)</li>
+            <li className="text-sm p-1 sm:p-0">Tuesday — Thursday</li>
+            <li className="text-sm p-1 sm:p-0">11am — 8pm</li>
+            <li className="text-sm p-1 sm:p-0">Friday — Sunday</li>
+            <li className="text-sm p-1 sm:p-0">11am — 9pm</li>
+            <li className="text-sm p-1 my-4 sm:p-0 sm:my:0">Closed on Monday</li>
         </ul>
         </Zoom>
 
         <Zoom>
-        <ul className="right-footer underline text-right text-lg">
+        <ul className="right-footer underline text-right text-lg sm:text-sm">
             <li><a>Contact Us</a></li>
             <li><a>Careers</a></li>
             <li><a>Returns & Shipping</a></li>
@@ -42,7 +44,7 @@ return (
         </ul>
         </Zoom>
     </div>
-</div>
+</footer>
 );
 }
 

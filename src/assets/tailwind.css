@@ -17,13 +17,8 @@
 }
 
 @font-face {
-    font-family: 'DIN 2014';
-    src: url("../assets/fonts/DIN2014-Regular.woff");
-    src: local('DIN 2014 Regular'), local('DIN2014-Regular'),
-        url("../assets/fonts/DIN2014-Regular.woff") format('woff');
-
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Din";
+    src: url("../assets/fonts/DIN2014-Regular.woff") format('woff');
 }
 
 /******************** NAVBAR ********************/
@@ -34,9 +29,6 @@
     }
 }
 
-.first-image {
-    border-radius: 0;
-}
 /******************** LANDING-PAGE IMAGES CHANGING ANIMATION ********************/
 
 .slider {
@@ -73,13 +65,10 @@
     color:#e26650;
 }
 
-
 /******************** THREE IMAGES ********************/
 
 .three-images-container {
-    font-family: 'DIN 2014';
-    background: url("../assets/images/peony_background.jpg") no-repeat center center/cover;
-    
+    background: url("../assets/images/peony_background.jpg") no-repeat center center/cover; 
 }
 
 .three-images-ul button {
@@ -88,31 +77,10 @@
     transition: 0.1s background-color linear, 0.1s color linear;
 }
 
-/*
-.three-images-ul button:hover {
-    background-color: #e26650;
-    color: #fff;
-}
-
-.first-image .third-image {
-    height: 25vw;
-    width: 40vw;
-}
-
-.second-image {
-    height: 30vw;
-    width: 38vw;
-}
-
-.three-images-ul {
-    height: 20vw;
-    width: 20vw;
-}
-*/
 /******************** STORY/BLACK CONTAINER ********************/
 
 .story-container {
-    height: 66vh;
+    min-height: 66vh;
     font-family: 'DIN 2014';
 }
 
@@ -130,29 +98,14 @@
 
 /******************** TIGER IMAGE ********************/
 .tiger-container {
-    height: 38vw;
-    width: 90vw;
+    min-height: 75vh;
+    background: url("../assets/images/tigerz.png") no-repeat center center/cover; 
 }
-
 
 /******************** FOOTER ********************/
 
 .footer {
-    min-height: 33vh;
-    background-color: #e26650;
-    font-family: 'DIN 2014';
-    height: 44vh;
-    width: 100%;
-}
-
-.footer img {
-    height: 120px;
-}
-
-
-.footer-content-container ul {
-    flex-basis: 50%;
-    padding: 10px 20px;
+    min-height: 40vh;
 }
 
 /******************** ABOUT PAGE ********************/
@@ -229,17 +182,6 @@
         font-size: 14px;
     }
 }
-
-
-@media screen and (max-width: 600px) {
-    .footer-content-container {
-        display: inline-block;
-    }
-}
-
-
-
-
 
 
 

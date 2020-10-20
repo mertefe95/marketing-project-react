@@ -13,7 +13,7 @@ import TailwindCSS from "../assets/tailwind.css";
 
 function Home() {
 return (
-<div className="main">
+<main className="main">
     <div className="slider">
 
     </div>
@@ -33,7 +33,7 @@ return (
                 </li>
 
                 <li>
-                    <button className="order-ahead-btn font.DIN text-base mt-8 border-2 py-3 px-6 text-white outline-none md:text-sm">Now Available</button>
+                    <button className="order-ahead-btn font.din text-base mt-8 border-2 py-3 px-6 text-white outline-none md:text-sm">Now Available</button>
                 </li>
             </ul>
     </div>
@@ -56,7 +56,7 @@ return (
         </div>
     
     
-        <div className="three-images-lower-container flex items-center justify-center w-full">
+        <div className="three-images-lower-container flex items-center justify-center w-full font-din">
 
             <div className="card pb-16 mr-8 sm:mr-0 sm:pr-8 xl:w-2/5">
                 <Fade duration={3000} delay={400}>           
@@ -71,19 +71,18 @@ return (
         </div>
     </div>
 
-    <div className="story-container text-white bg-black flex flex-col justify-center items-center">
+    <div className="story-container text-white bg-black flex flex-col justify-center items-center ">
         <Fade>
-        <ul className="story-ul">
-            <li className="text-2xl">HUG A MUG's story starts in the late 90s when boba was first introduced to the TR.</li>
+        <ul className="story-ul font-din">
+            <li className="text-2xl sm:px-12">HUG A MUG's story starts in the late 90s when boba was first introduced to the TR.</li>
             <li className="text-center pt-10"><button className="py-3 px-5 border-2 border-solid tracking-wide text-base">Our Story</button></li>
         </ul>
         </Fade>
     </div>
 
     <div className="tiger-container">
-        <img className="tiger-image h-full w-full" src={Tiger}/>
     </div>
-</div>
+</main>
 );
 }
 

@@ -10163,8 +10163,8 @@ video {
   font-family: Inter;
 }
 
-.font-DIN {
-  font-family: DIN 2014;
+.font-din {
+  font-family: Din;
 }
 
 .font-hairline {
@@ -18783,16 +18783,9 @@ video {
 }
 
 @font-face {
-  font-family: 'DIN 2014';
+  font-family: "Din";
 
-  src: url("../assets/fonts/DIN2014-Regular.woff");
-
-  src: local('DIN 2014 Regular'), local('DIN2014-Regular'),
-        url("../assets/fonts/DIN2014-Regular.woff") format('woff');
-
-  font-weight: normal;
-
-  font-style: normal;
+  src: url("../assets/fonts/DIN2014-Regular.woff") format('woff');
 }
 
 /******************** NAVBAR ********************/
@@ -18845,12 +18838,7 @@ video {
 /******************** THREE IMAGES ********************/
 
 .three-images-container {
-  font-family: 'DIN 2014';
   background: url("../assets/images/peony_background.jpg") no-repeat center center/cover;
-}
-
-.first-image {
-  border-radius: 200px;
 }
 
 .three-images-ul button {
@@ -18859,32 +18847,10 @@ video {
   transition: 0.1s background-color linear, 0.1s color linear;
 }
 
-/*
-.three-images-ul button:hover {
-    background-color: #e26650;
-    color: #fff;
-}
-
-.first-image .third-image {
-    height: 25vw;
-    width: 40vw;
-}
-
-.second-image {
-    height: 30vw;
-    width: 38vw;
-}
-
-.three-images-ul {
-    height: 20vw;
-    width: 20vw;
-}
-*/
-
 /******************** STORY/BLACK CONTAINER ********************/
 
 .story-container {
-  height: 66vh;
+  min-height: 66vh;
   font-family: 'DIN 2014';
 }
 
@@ -18902,27 +18868,14 @@ video {
 /******************** TIGER IMAGE ********************/
 
 .tiger-container {
-  height: 38vw;
-  width: 90vw;
+  min-height: 75vh;
+  background: url("../assets/images/tigerz.png") no-repeat center center/cover;
 }
 
 /******************** FOOTER ********************/
 
 .footer {
-  min-height: 33vh;
-  background-color: #e26650;
-  font-family: 'DIN 2014';
-  height: 44vh;
-  width: 100%;
-}
-
-.footer img {
-  height: 120px;
-}
-
-.footer-content-container ul {
-  flex-basis: 50%;
-  padding: 10px 20px;
+  min-height: 40vh;
 }
 
 /******************** ABOUT PAGE ********************/
@@ -18995,12 +18948,6 @@ video {
     width: 20vw;
     padding: 0;
     font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .footer-content-container {
-    display: inline-block;
   }
 }
 
@@ -28591,8 +28538,8 @@ video {
     font-family: Inter;
   }
 
-  .sm\:font-DIN {
-    font-family: DIN 2014;
+  .sm\:font-din {
+    font-family: Din;
   }
 
   .sm\:font-hairline {
@@ -46753,8 +46700,8 @@ video {
     font-family: Inter;
   }
 
-  .md\:font-DIN {
-    font-family: DIN 2014;
+  .md\:font-din {
+    font-family: Din;
   }
 
   .md\:font-hairline {
@@ -64915,8 +64862,8 @@ video {
     font-family: Inter;
   }
 
-  .lg\:font-DIN {
-    font-family: DIN 2014;
+  .lg\:font-din {
+    font-family: Din;
   }
 
   .lg\:font-hairline {
@@ -83077,8 +83024,8 @@ video {
     font-family: Inter;
   }
 
-  .xl\:font-DIN {
-    font-family: DIN 2014;
+  .xl\:font-din {
+    font-family: Din;
   }
 
   .xl\:font-hairline {
@@ -101239,8 +101186,8 @@ video {
     font-family: Inter;
   }
 
-  .xxl\:font-DIN {
-    font-family: DIN 2014;
+  .xxl\:font-din {
+    font-family: Din;
   }
 
   .xxl\:font-hairline {
@@ -109813,10 +109760,6 @@ video {
     animation: bounce 1s infinite;
   }
 }
-
-
-
-
 
 
 
