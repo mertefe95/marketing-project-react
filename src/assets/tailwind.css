@@ -27,7 +27,12 @@
 }
 
 /******************** NAVBAR ********************/
-
+@media screen and (max-width: 652px) {
+    .logo-container {
+        left: 10;
+        top: 20;
+    }
+}
 
 /******************** LANDING-PAGE IMAGES CHANGING ANIMATION ********************/
 

@@ -18797,6 +18797,13 @@ video {
 
 /******************** NAVBAR ********************/
 
+@media and screen(max-width: 652px) {
+  .logo-container {
+    left: 20;
+    top: 20;
+  }
+}
+
 /******************** LANDING-PAGE IMAGES CHANGING ANIMATION ********************/
 
 .slider {
