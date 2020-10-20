@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import RealWhiteLogo from "../assets/images/real-white-logo.png";
 import MenuImage from "../assets/images/new-menu.jpg";
-import Coffee1 from "../assets/images/cff1.png";
+import Coffee1 from "../assets/images/coffee1.png";
 import Coffee2 from "../assets/images/coffee2.png";
 import Coffee3 from "../assets/images/coffee3.png";
 import Tiger from "../assets/images/tigerz.png";
@@ -44,7 +44,7 @@ return (
 
             <div className="card xxl:pl-12 sm:pl-32">
                 <Fade>
-                <img className="first-image rounded-3xl"  src={Coffee1} />
+                <img className="first-image rounded-3xl" src={Coffee1} />
                 </Fade>
             </div>
 
