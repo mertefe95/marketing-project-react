@@ -27,81 +27,6 @@
 }
 
 /******************** NAVBAR ********************/
-.logo-container {
-    min-height: 50px;
-    min-width: 200px;
-}
-
-.navbar {
-    font-family: "Inter";
-    
-}
-
-.navbar .icon {
-    display: none;
-}
-
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-}
-
-@media (max-width: 1000px) {
-    .links-and-icons {      
-        padding-right: 50px;
-    }   
-}
-
-@media (max-width: 800px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .links-and-icons {
-        display: none;
-        width: 100%;
-    }
-
-    .links-and-icons ul {
-        padding: 0 20px 0 0;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .links-and-icons ul li {
-        text-align: center;
-    }
-
-    .links-and-icons ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .links-and-icons ul li i {
-        padding: .5rem 1rem;
-    }
-
-    .links-and-icons.active {
-        display: flex;
-    }
-}
 
 
 /******************** LANDING-PAGE IMAGES CHANGING ANIMATION ********************/
@@ -133,16 +58,6 @@
 .order-ahead-container {
     background: url("../assets/images/below-image.png") no-repeat center center/cover;
     min-height: 80vh;
-    padding-top: 200px;
-    padding-right: 900px;
-}
-
-.order-ahead-upper {
-    font-family: "Inter";
-}
-
-.order-ahead-below {
-    font-family: 'DIN 2014';
 }
 
 .order-ahead-btn:hover  {
@@ -150,16 +65,6 @@
     color:#e26650;
 }
 
-@media screen and (min-width:400px) and (max-width: 1000px) {
-    .order-ahead-container {
-        padding-top: 20px;
-        padding-right: 6    0px;
-    }
-
-    .order-ahead-btn {
-        padding-right: 120px;
-    }
-}
 
 /******************** THREE IMAGES ********************/
 

@@ -5,8 +5,6 @@ import { fab, faFacebookF, faInstagram, faYelp } from '@fortawesome/free-brands-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import RealWhiteLogo from "../assets/images/real-white-logo.png";
 import TailwindCSS from  "../assets/tailwind.css";
-
-
 library.add(fab)
 
 function Nav() {
@@ -15,13 +13,13 @@ return(
 <nav className="nav bg-black h-40 flex sm:justify-evenly">       
     <div className="logo-container md:pl-8">
         <Zoom>
-        <a href="/"><img className="h-full pl-20 sm:pl-12 py-4 sm:pr-0" src={RealWhiteLogo}/></a>
+        <a href="/"><img className="h-full py-4 pl-20 sm:pl-12 sm:pr-0" src={RealWhiteLogo}/></a>
         </Zoom> 
     </div>   
 
-    <div className="menu-links-icons sm:flex-col xl:pr-12 sm:pl-0 sm:pr-28 sm:w-5/6 md:flex-col sm:justify-start md:pl-32 sm:pl-0 md:pt-12 sm:pt-12 flex text-white items-center pl-64">       
+    <div className="menu-links-icons font-inter flex text-white items-center pl-64 sm:justify-start sm:pt-12 sm:flex-col sm:pl-0 sm:pr-28 sm:w-5/6 md:flex-col md:pl-32 md:pt-12 xxl:pr-12 ">       
             <Zoom>
-            <ul className="links flex uppercase px-10 sm:pl-0 sm:pr-20 text-sm font-semibold">
+            <ul className="links flex uppercase text-sm font-semibold px-10 sm:pl-0 sm:pr-20">
                 <li className="px-4"><a href="/menu">Menu</a></li>
                 <li className="px-4"><a href="/about">About</a></li>
             </ul>

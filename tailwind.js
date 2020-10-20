@@ -13,7 +13,8 @@ module.exports = {
       sm: {'max': '652px'},
       md: {'max': '832px'},
       lg: {'max': '1000px'},
-      xl: {'max': '1784px'},
+      xl: {'max': '1290px'},
+      xxl: {'max': '1784px'},
     },
     colors: {
       transparent: 'transparent',
@@ -264,6 +265,8 @@ module.exports = {
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+      inter: ['Inter'],
+      DIN: ['DIN 2014']
     },
     fontSize: {
       xs: '0.75rem',

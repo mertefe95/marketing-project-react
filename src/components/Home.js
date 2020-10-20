@@ -14,7 +14,9 @@ import TailwindCSS from "../assets/tailwind.css";
 function Home() {
 return (
 <div className="main">
-    <div className="slider"></div>
+    <div className="slider">
+
+    </div>
 
     <div className="menu-container flex justify-center">
         <Zoom duration={2000}>
@@ -22,20 +24,20 @@ return (
         </Zoom>
     </div>
 
-    <div className="order-ahead-container flex justify-start items-center flex-col">
-        <div className="order-ahead-upper">
-            <Slide right>
-            <h2 className="order-ahead text-white tracking-widest font-semibold text-5xl">ORDER AHEAD</h2>
-            </Slide>
-        </div>
-        <div className="order-ahead-below">
-            <button className="order-ahead-btn text-base mt-8 border-2 py-3 px-6 text-white outline-none">Now Available</button>   
-        </div>
+    <div className="order-ahead-container flex flex-col justify-center items-start pl-64 xxl:pl-48 md:pl-4 sm:items-center sm:pl-0">
+            <ul className="md:pr-64 sm:pr-42 sm:pl-20">
+                <li>
+                    <Slide right>
+                    <h2 className="order-ahead-header font.inter text-white tracking-widest font-semibold text-5xl md:text-3x1">ORDER AHEAD</h2>
+                    </Slide>
+                </li>
+
+                <li>
+                    <button className="order-ahead-btn font.DIN text-base mt-8 border-2 py-3 px-6 text-white outline-none md:text-sm">Now Available</button>
+                </li>
+            </ul>
     </div>
 
-    
-    
-    
     <div className="three-images-container p-24">
 
         <div className="three-images-upper-container flex justify-center items-center">
