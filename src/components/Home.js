@@ -103,32 +103,27 @@ return (
     </div> 
 
 
-    <div className="director-div flex">
-        <div className="flex flex-col justify-around items-center text-center">
-            <p className="pt-8 text-center text-xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-3xl">Followups gives us a <span className="director-span">single tool</span> that lets us sell to and support users through every step of the funnel.</p>
-
+    <div className="director-div flex xl:px-64">
+        <div className="flex flex-col justify-around items-center xl:px-64">
+            <p className="pt-8 text-center text-xl xl:text-left  tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-3xl">Followups gives us a <span className="director-span">single tool</span> that lets us sell to and support users through every step of the funnel.</p>
             <p><strong>Jason Mills,</strong> Director of Sales and Success</p>
-
         </div>
-
         <div className="bg-indigo-700">
-            <img src="./images/man-pic.png"  />
-            
+            <img src="./images/man-pic.png"  />       
         </div>
-
     </div>
 
 
-    <div className="how-it-works-container">
+    <div className="how-it-works-container xl:px-64">
         <div className="how-it-works flex flex-col justify-evenly items-center px-4">
-            <h2 className="pt-8 text-center text-2xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-3xl">
+            <h2 className="pt-8 text-center text-4xl lg:pb-8 tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-3xl">
                 Here's how it works
             </h2>
-            <p className="text-center text-base">When a user dials in to the number we provide you, they will be asked:</p>
+            <p className="text-center text-lg lg:pb-8">When a user dials in to the number we provide you,<br/> they will be asked:</p>
         </div>
 
-        <div className="flex flex-col px-4 py-4">
-            <div className="flex">
+        <div className="flex flex-col justify-center items-center md:px-36 md:flex-row px-4 py-4 ">
+            <div className="flex md:px-20">
                 <div className="mr-2"><FontAwesomeIcon className="text-3xl bg-indigo-500  " icon={faSms}/></div>
             <div classNName="pl-4">
                 <h3 className="font-bold text-lg">Press 1 to receive a text</h3>
@@ -143,6 +138,7 @@ return (
                 <p className="text-base">Dear will immediately receive an SMS text that tells you how long it will take to receive call back.</p>
             </div>
         </div>
+        </div>
 
         <div className="btn text-center pt-4">
         <span class="inline-flex rounded-md shadow-sm">
@@ -151,7 +147,7 @@ return (
             </button>
         </span>
         </div>
-    </div>
+    
     </div>
     </div>
 );

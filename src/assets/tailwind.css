@@ -13,3 +13,7 @@
 .director-span {
     color: #5850EC;
 }
+
+.logo > h2 {
+    border-radius: 300px;
+}
