@@ -581,6 +581,36 @@ video {
   width: 100%;
 }
 
+@media (min-width: 652px) {
+  .container {
+    max-width: 652px;
+  }
+}
+
+@media (min-width: 832px) {
+  .container {
+    max-width: 832px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1290px) {
+  .container {
+    max-width: 1290px;
+  }
+}
+
+@media (min-width: 1784px) {
+  .container {
+    max-width: 1784px;
+  }
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
@@ -11675,6 +11705,26 @@ video {
   max-width: 100%;
 }
 
+.max-w-screen-sm {
+  max-width: 652px;
+}
+
+.max-w-screen-md {
+  max-width: 832px;
+}
+
+.max-w-screen-lg {
+  max-width: 1000px;
+}
+
+.max-w-screen-xl {
+  max-width: 1290px;
+}
+
+.max-w-screen-xxl {
+  max-width: 1784px;
+}
+
 .min-h-0 {
   min-height: 0;
 }
@@ -18774,9 +18824,39 @@ video {
   margin: 0;
 }
 
-@media (max-width: 652px) {
+@media (min-width: 652px) {
   .sm\:container {
     width: 100%;
+  }
+
+  @media (min-width: 652px) {
+    .sm\:container {
+      max-width: 652px;
+    }
+  }
+
+  @media (min-width: 832px) {
+    .sm\:container {
+      max-width: 832px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .sm\:container {
+      max-width: 1000px;
+    }
+  }
+
+  @media (min-width: 1290px) {
+    .sm\:container {
+      max-width: 1290px;
+    }
+  }
+
+  @media (min-width: 1784px) {
+    .sm\:container {
+      max-width: 1784px;
+    }
   }
 
   .sm\:space-y-0 > :not(template) ~ :not(template) {
@@ -29873,6 +29953,26 @@ video {
     max-width: 100%;
   }
 
+  .sm\:max-w-screen-sm {
+    max-width: 652px;
+  }
+
+  .sm\:max-w-screen-md {
+    max-width: 832px;
+  }
+
+  .sm\:max-w-screen-lg {
+    max-width: 1000px;
+  }
+
+  .sm\:max-w-screen-xl {
+    max-width: 1290px;
+  }
+
+  .sm\:max-w-screen-xxl {
+    max-width: 1784px;
+  }
+
   .sm\:min-h-0 {
     min-height: 0;
   }
@@ -36936,9 +37036,39 @@ video {
   }
 }
 
-@media (max-width: 832px) {
+@media (min-width: 832px) {
   .md\:container {
     width: 100%;
+  }
+
+  @media (min-width: 652px) {
+    .md\:container {
+      max-width: 652px;
+    }
+  }
+
+  @media (min-width: 832px) {
+    .md\:container {
+      max-width: 832px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .md\:container {
+      max-width: 1000px;
+    }
+  }
+
+  @media (min-width: 1290px) {
+    .md\:container {
+      max-width: 1290px;
+    }
+  }
+
+  @media (min-width: 1784px) {
+    .md\:container {
+      max-width: 1784px;
+    }
   }
 
   .md\:space-y-0 > :not(template) ~ :not(template) {
@@ -48035,6 +48165,26 @@ video {
     max-width: 100%;
   }
 
+  .md\:max-w-screen-sm {
+    max-width: 652px;
+  }
+
+  .md\:max-w-screen-md {
+    max-width: 832px;
+  }
+
+  .md\:max-w-screen-lg {
+    max-width: 1000px;
+  }
+
+  .md\:max-w-screen-xl {
+    max-width: 1290px;
+  }
+
+  .md\:max-w-screen-xxl {
+    max-width: 1784px;
+  }
+
   .md\:min-h-0 {
     min-height: 0;
   }
@@ -55098,9 +55248,39 @@ video {
   }
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   .lg\:container {
     width: 100%;
+  }
+
+  @media (min-width: 652px) {
+    .lg\:container {
+      max-width: 652px;
+    }
+  }
+
+  @media (min-width: 832px) {
+    .lg\:container {
+      max-width: 832px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .lg\:container {
+      max-width: 1000px;
+    }
+  }
+
+  @media (min-width: 1290px) {
+    .lg\:container {
+      max-width: 1290px;
+    }
+  }
+
+  @media (min-width: 1784px) {
+    .lg\:container {
+      max-width: 1784px;
+    }
   }
 
   .lg\:space-y-0 > :not(template) ~ :not(template) {
@@ -66197,6 +66377,26 @@ video {
     max-width: 100%;
   }
 
+  .lg\:max-w-screen-sm {
+    max-width: 652px;
+  }
+
+  .lg\:max-w-screen-md {
+    max-width: 832px;
+  }
+
+  .lg\:max-w-screen-lg {
+    max-width: 1000px;
+  }
+
+  .lg\:max-w-screen-xl {
+    max-width: 1290px;
+  }
+
+  .lg\:max-w-screen-xxl {
+    max-width: 1784px;
+  }
+
   .lg\:min-h-0 {
     min-height: 0;
   }
@@ -73260,9 +73460,39 @@ video {
   }
 }
 
-@media (max-width: 1290px) {
+@media (min-width: 1290px) {
   .xl\:container {
     width: 100%;
+  }
+
+  @media (min-width: 652px) {
+    .xl\:container {
+      max-width: 652px;
+    }
+  }
+
+  @media (min-width: 832px) {
+    .xl\:container {
+      max-width: 832px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .xl\:container {
+      max-width: 1000px;
+    }
+  }
+
+  @media (min-width: 1290px) {
+    .xl\:container {
+      max-width: 1290px;
+    }
+  }
+
+  @media (min-width: 1784px) {
+    .xl\:container {
+      max-width: 1784px;
+    }
   }
 
   .xl\:space-y-0 > :not(template) ~ :not(template) {
@@ -84359,6 +84589,26 @@ video {
     max-width: 100%;
   }
 
+  .xl\:max-w-screen-sm {
+    max-width: 652px;
+  }
+
+  .xl\:max-w-screen-md {
+    max-width: 832px;
+  }
+
+  .xl\:max-w-screen-lg {
+    max-width: 1000px;
+  }
+
+  .xl\:max-w-screen-xl {
+    max-width: 1290px;
+  }
+
+  .xl\:max-w-screen-xxl {
+    max-width: 1784px;
+  }
+
   .xl\:min-h-0 {
     min-height: 0;
   }
@@ -91422,9 +91672,39 @@ video {
   }
 }
 
-@media (max-width: 1784px) {
+@media (min-width: 1784px) {
   .xxl\:container {
     width: 100%;
+  }
+
+  @media (min-width: 652px) {
+    .xxl\:container {
+      max-width: 652px;
+    }
+  }
+
+  @media (min-width: 832px) {
+    .xxl\:container {
+      max-width: 832px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .xxl\:container {
+      max-width: 1000px;
+    }
+  }
+
+  @media (min-width: 1290px) {
+    .xxl\:container {
+      max-width: 1290px;
+    }
+  }
+
+  @media (min-width: 1784px) {
+    .xxl\:container {
+      max-width: 1784px;
+    }
   }
 
   .xxl\:space-y-0 > :not(template) ~ :not(template) {
@@ -102519,6 +102799,26 @@ video {
 
   .xxl\:max-w-full {
     max-width: 100%;
+  }
+
+  .xxl\:max-w-screen-sm {
+    max-width: 652px;
+  }
+
+  .xxl\:max-w-screen-md {
+    max-width: 832px;
+  }
+
+  .xxl\:max-w-screen-lg {
+    max-width: 1000px;
+  }
+
+  .xxl\:max-w-screen-xl {
+    max-width: 1290px;
+  }
+
+  .xxl\:max-w-screen-xxl {
+    max-width: 1784px;
   }
 
   .xxl\:min-h-0 {
