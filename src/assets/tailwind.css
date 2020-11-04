@@ -15,3 +15,7 @@
 .nav {
     font-family: 'Josefin Sans';
 }
+
+.homepage-background-image {
+    background: url("/images/smartwatch1.jpg") no-repeat center center/cover; 
+}
