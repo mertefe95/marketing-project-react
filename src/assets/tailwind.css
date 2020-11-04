@@ -20,6 +20,11 @@
     background: url("/images/smartwatch1.jpg") no-repeat center center/cover; 
 }
 
-footer {
-    height: 100vh;
+.footer-div {
+    height: 50vh;
+}
+
+
+.testimonials-div {
+    height: 50vh;
 }

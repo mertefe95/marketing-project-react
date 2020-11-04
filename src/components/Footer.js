@@ -4,8 +4,8 @@ import Tailwind from "../assets/tailwind.css";
 function Footer() {
 return (
 
-<footer className="bg-white" >
-  <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+<footer className="bg-white footer-div" >
+  <div className="h-full max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div className="xl:grid xl:grid-cols-3 xl:gap-8">
       <div className="grid grid-cols-2 gap-8 xl:col-span-2">
         <div className="md:grid md:grid-cols-2 md:gap-8">
