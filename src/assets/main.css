@@ -18818,18 +18818,20 @@ video {
   animation: bounce 1s infinite;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-.director-span {
-  color: #5850EC;
+.nav {
+  font-family: 'Josefin Sans';
 }
 
-.man-img {
-  border-radius: 10% 10% 10% 10%;
+.homepage-background-image {
+  background: url("/images/smartwatch1.jpg") no-repeat center center/cover;
 }
 
 @media (min-width: 652px) {
