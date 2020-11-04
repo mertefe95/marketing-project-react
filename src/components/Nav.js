@@ -3,10 +3,17 @@ import Tailwind from "../assets/tailwind.css";
 
 function Nav() {
     return(
-        <div>
+        <nav className="nav h-24 bg-black text-white">
+        
+            <h2>Smart Watches Logo</h2>
 
-            Merhaba , this is Nav.
-        </div>
+            <ul>
+                <li><a href="#">HOMEPAGE</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+
+        </nav>
 
     );
 
