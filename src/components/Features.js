@@ -9,7 +9,7 @@ return (
     <div className="lg:text-center">
       <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Feature #1</p>
       <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-        A better way to send money
+        Longer Battery Life
       </h3>
       <img src="./images/smartwatch-img.jpg" className="pt-2"/>
       <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
@@ -97,7 +97,7 @@ return (
     <div className="lg:text-center">
       <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Feature #2</p>
       <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-        A better way to send money
+        Cellular Connectivity
       </h3>
       <img src="./images/smartwatch3.jpg" className="pt-2"/>
       <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
@@ -151,9 +151,9 @@ return (
               </div>
             </div>
             <div className="ml-4">
-              <h4 className="text-lg leading-6 font-medium text-gray-900">Transfers are instant</h4>
+              <h4 className="text-lg leading-6 font-medium text-gray-900">GPS</h4>
               <p className="mt-2 text-base leading-6 text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                GPS capabilities — to measure distance and location.
               </p>
             </div>
           </div>
@@ -168,9 +168,9 @@ return (
               </div>
             </div>
             <div className="ml-4">
-              <h4 className="text-lg leading-6 font-medium text-gray-900">Mobile notifications</h4>
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Tracking</h4>
               <p className="mt-2 text-base leading-6 text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                Altimeters — which are used to calculate altitude.
               </p>
             </div>
           </div>
@@ -185,11 +185,11 @@ return (
     <div className="lg:text-center">
       <p className="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Feature #3</p>
       <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-        A better way to send money
+        Infrared Sensor
       </h3>
       <img src="./images/smartwatch2.jpg" className="pt-2"/>
       <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-        Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
+        With this, users can also use their devices as TV remotes and more if not anything else.
       </p>
     </div>
 
@@ -205,9 +205,9 @@ return (
               </div>
             </div>
             <div className="ml-4">
-              <h4 className="text-lg leading-6 font-medium text-gray-900">Competitive exchange rates</h4>
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Wireless connection to TV or AC, no need for remote.</h4>
               <p className="mt-2 text-base leading-6 text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                In this case you won’t have to always search for your TV or AC remote as it will be right there on your wrists
               </p>
             </div>
           </div>
@@ -222,9 +222,9 @@ return (
               </div>
             </div>
             <div className="ml-4">
-              <h4 className="text-lg leading-6 font-medium text-gray-900">No hidden fees</h4>
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Fitness</h4>
               <p className="mt-2 text-base leading-6 text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                A 3-axis accelerometer and a gyroscope — which enable devices to be used a pedometers and general activity trackers;
               </p>
             </div>
           </div>
@@ -239,9 +239,9 @@ return (
               </div>
             </div>
             <div className="ml-4">
-              <h4 className="text-lg leading-6 font-medium text-gray-900">Transfers are instant</h4>
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Improved Systems and Engineering</h4>
               <p className="mt-2 text-base leading-6 text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                Along with better design, more apps, longer battery life, cellular connectivity and the usual features could make a great smartwatch.
               </p>
             </div>
           </div>
@@ -257,9 +257,9 @@ return (
               </div>
             </div>
             <div className="ml-4">
-              <h4 className="text-lg leading-6 font-medium text-gray-900">Mobile notifications</h4>
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Immediate Text Notifications</h4>
               <p className="mt-2 text-base leading-6 text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                Texts will be immediately appear on your watch with no delay. Also we have added the option of making the messages come with a voice.
               </p>
             </div>
           </div>

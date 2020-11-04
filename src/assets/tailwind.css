@@ -28,3 +28,7 @@
 .testimonials-div {
     height: 50vh;
 }
+
+.contact-form > input {
+    border-color: rgb(210, 214, 220);
+}
