@@ -18824,6 +18824,14 @@ video {
   margin: 0;
 }
 
+.director-span {
+  color: #5850EC;
+}
+
+.man-img {
+  border-radius: 10% 10% 10% 10%;
+}
+
 @media (min-width: 652px) {
   .sm\:container {
     width: 100%;
@@ -109883,4 +109891,3 @@ video {
     animation: bounce 1s infinite;
   }
 }
-
