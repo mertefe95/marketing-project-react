@@ -8,9 +8,9 @@ function Nav() {
             <div className=""> <img src="./images/smartwatch-transparent.png" className="object-cover" /></div>
 
             <ul className="flex flex-col md:flex-row">
-                <li className="md:px-4"><a href="#">HOMEPAGE</a></li>
-                <li className="md:px-4"><a href="#">FEATURES</a></li>
-                <li className="md:px-4"><a href="#">CONTACT US</a></li>
+                <li className="md:px-4"><a href="/">HOMEPAGE</a></li>
+                <li className="md:px-4"><a href="/features">FEATURES</a></li>
+                <li className="md:px-4"><a href="/contactus">CONTACT US</a></li>
             </ul>
 
         </nav>

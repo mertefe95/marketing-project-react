@@ -18834,6 +18834,10 @@ video {
   background: url("/images/smartwatch1.jpg") no-repeat center center/cover;
 }
 
+footer {
+  height: 100vh;
+}
+
 @media (min-width: 652px) {
   .sm\:container {
     width: 100%;

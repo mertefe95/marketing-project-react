@@ -3,8 +3,8 @@ import Tailwind from "../assets/tailwind.css";
 
 function Home() {
 return (
-<main className="homepage-main h-screen">
-    <div className="homepage-background-image h-full">
+<main className="homepage-main">
+    <div className="homepage-background-image h-screen">
     </div>
 
 
