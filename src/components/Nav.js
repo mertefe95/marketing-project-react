@@ -3,15 +3,16 @@ import Tailwind from "../assets/tailwind.css";
 
 function Nav() {
     return(
-        <nav className="nav h-24 bg-black text-white">
-        
+        <nav className="nav h-24 bg-black text-white flex items-center justify-between px-4">
+
             <h2>Smart Watches Logo</h2>
 
-            <ul>
-                <li><a href="#">HOMEPAGE</a></li>
-                <li><a href="#">FEATURES</a></li>
-                <li><a href="#">CONTACT US</a></li>
+            <ul className="flex flex-col md:flex-row">
+                <li className="md:px-4"><a href="#">HOMEPAGE</a></li>
+                <li className="md:px-4"><a href="#">FEATURES</a></li>
+                <li className="md:px-4"><a href="#">CONTACT US</a></li>
             </ul>
+
 
         </nav>
 
