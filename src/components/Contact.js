@@ -11,25 +11,28 @@ return (
 
     <div className="contact-middle">
         <form className="contact-form flex flex-col justify-center items-center">
-            <span>
+            <span className="flex flex-col justify-center items-center">
             <label htmlFor="first-name">First name</label>
-            <input id="first-name"></input>
-
+            <input id="first-name" className="border border-solid rounded-md leading-6 py-2 px-3 ease-in-out"></input>
+            
             <label htmlFor="last-name">Last name</label>
-            <input id="last-name"></input>
+            <input id="last-name" className="border border-solid rounded-md leading-6 py-2 px-3 ease-in-out"></input>
             </span>
 
+            <span className="flex flex-col justify-center items-center">
             <label htmlFor="company">Company</label>
-            <input id="company"></input>
+            <input id="company" className="border border-solid rounded-md leading-6 py-2 px-3 ease-in-out"></input>
 
             <label htmlFor="email">Email</label>
-            <input id="email"></input>
+            <input id="email" className="border border-solid rounded-md leading-6 py-2 px-3 ease-in-out"></input>
 
             <label htmlFor="phone-number">Phone Number</label>
-            <input id="phone-number"></input>
+            <input id="phone-number" className="border border-solid rounded-md leading-6 py-2 px-3 ease-in-out"></input>
+            </span>
 
             <label htmlFor="text-area">Message</label>
-            <textarea id="text-area"></textarea>
+            <textarea id="text-area" className="border border-solid rounded-md leading-6 py-2 px-3 ease-in-out"></textarea>
+
         </form>
     </div>
 
